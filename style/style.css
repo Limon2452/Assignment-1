@@ -49,7 +49,7 @@
     background: rgb(13, 19, 33);
     margin-top: 42px;
     padding: 15px ;
-
+    cursor: pointer;
     color: rgb(255, 255, 255);
     font-family: "Azeret Mono", monospace;
     font-size: 15px;
@@ -58,4 +58,95 @@
     letter-spacing: 0%;
     text-align: center;
     border: none;
+}
+/* second page */
+
+.banner{
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);;
+    width: 1140px;
+    height: 1395px;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 74px;
+}
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+.banner-discription{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
+    padding-left: 140px;
+    padding-top: 24px;
+
+}
+.group{
+    display: flex;
+    margin-top: 57px;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-left: 130px;
+}
+.group-banner1{
+    width: 477px;
+    height: 219px;
+    padding-right: 200px;
+    
+}
+.group-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono", monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    padding-top: 20px;
+    width: 390px;
+    
+}
+.group-discription{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    opacity: 0.7;
+    width: 468px;
+}
+.btn2{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 151px;
+    height: 37px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.group-banner1, .layer1{
+    /* padding-right: 40px; */
+    margin-right: 100px;
+    width: 259px;
+    height: 217px;
+
 }
