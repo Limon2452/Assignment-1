@@ -229,7 +229,172 @@
     padding: 40px;
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    background-color: rgb(255, 255, 255);;
+    background-color: rgb(255, 255, 255);
+    ;
     margin-left: 140px;
     margin-top: 140px;
+}
+
+.layer3 {
+    /* text-align: center; */
+}
+
+.layer3-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.layer3-discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 842px;
+    margin-left: 310px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.layer4 {
+    margin-left: 130px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 400px;
+    height: 250px;
+}
+
+.layer4-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.layer4-image {
+    width: 56px;
+    height: 56px;
+    padding-bottom: 20px;
+}
+
+.layer4-discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    padding-bottom: 10px;
+}
+
+.layer4-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.layer4-banner {
+    display: flex;
+    /* width: 1240px; */
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.banner5 {
+    background-image: url('/assets/handshake.jpg');
+    width: 1140px;
+    height: 313px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.banner5-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner5-discription {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.banner5-text {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 400px;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.banner5-btn {
+    padding: 12px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+}
+
+.footer-style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    padding: 12px;
+}
+
+.footer-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 80px;
+}
+.fb-style{
+    margin-left: 600px;
 }
